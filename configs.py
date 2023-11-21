@@ -30,8 +30,9 @@ parser.add_argument('--CD0_takeoff', type=float, default=0.013)
 parser.add_argument('--CD0_landing', type=float, default=0.0143)
 
 # Simulation Settings
-parser.add_argument('--tEnd', type=float, default=1000)
-parser.add_argument('--time_gap', type=float, default=0.1)
+parser.add_argument('--tEnd_tf', type=float, default=70)
+parser.add_argument('--tEnd_ld', type=float, default=90)
+parser.add_argument('--time_gap', type=float, default=0.01)
 parser.add_argument('--condition', type=str, default='takeoff')
 
 
